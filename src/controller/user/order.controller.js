@@ -1,6 +1,6 @@
-const OrderServices = require('../../Services/order.service');
+const OrderServices = require('../../services/order.service');
 const orderService = new OrderServices();
-const CartServices = require('../../Services/cart.service');
+const CartServices = require('../../services/cart.service');
 const cartService = new CartServices();
 
 // ADD NEW ORDER
